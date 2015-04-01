@@ -1,0 +1,1 @@
+var app = angular.module('app',[]);function MyController($scope) {    $scope.count = 0;    $scope.add = function(x) {            $scope.count += x;    }    $scope.sub = function(x) {        $scope.count -= x;    }}app.controller('MyController', MyController);
